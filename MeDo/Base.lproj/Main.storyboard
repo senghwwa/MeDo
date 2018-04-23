@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="sxU-JZ-1RX" id="foU-fi-9er"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="MeDo" id="thi-0N-zpT"/>
+                    <navigationItem key="navigationItem" title="MeDo" id="thi-0N-zpT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="DOl-mm-cCe">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="sxU-JZ-1RX" id="j9e-Ng-NaX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOX-sI-udA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
